@@ -8,7 +8,7 @@
 import Foundation
 
 protocol Selectable: Identifiable, Hashable {
-    var displayedName: String { get set }
+    var displayedName: String { get }
     var isSelected: Bool { get set }
     
     init(displayedName: String)
@@ -30,10 +30,5 @@ struct SelectableModel: Selectable, Identifiable {
     init(displayedName: String) {
         self.displayedName = displayedName
         self.isSelected = false
-    }
-    
-    init(displayedName: String, isSelected: Bool) {
-        self.displayedName = displayedName
-        self.isSelected = isSelected
     }
 }

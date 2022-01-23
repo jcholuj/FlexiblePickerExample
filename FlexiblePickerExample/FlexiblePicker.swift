@@ -66,9 +66,7 @@ struct FlexiblePicker<T: Selectable>: View {
     private func updateSelectedData(with data: T) {
         guard let index = inputData.indices
                 .first(where: { inputData[$0] == data }) else { return }
-        withAnimation(.easeInOut(duration: 0.5)) {
-            inputData[index].isSelected.toggle()
-        }
+        inputData[index].isSelected.toggle()
     }
     
     private func divideDataIntoLines(lineWidth: CGFloat) -> [[T]] {

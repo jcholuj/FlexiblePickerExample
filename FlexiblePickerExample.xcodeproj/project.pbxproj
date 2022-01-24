@@ -18,6 +18,7 @@
 		B6F9C82E279D45830091752F /* SelectableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C82D279D45830091752F /* SelectableModel.swift */; };
 		B6F9C830279D45A60091752F /* FlexiblePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C82F279D45A60091752F /* FlexiblePicker.swift */; };
 		B6F9C832279D45FB0091752F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C831279D45FB0091752F /* String+Extensions.swift */; };
+		B6F9C834279F22570091752F /* FlexiblePicker.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6F9C833279F22570091752F /* FlexiblePicker.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B6F9C82D279D45830091752F /* SelectableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableModel.swift; sourceTree = "<group>"; };
 		B6F9C82F279D45A60091752F /* FlexiblePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiblePicker.swift; sourceTree = "<group>"; };
 		B6F9C831279D45FB0091752F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		B6F9C833279F22570091752F /* FlexiblePicker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlexiblePicker.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		B6F9C7F5279D451F0091752F = {
 			isa = PBXGroup;
 			children = (
+				B6F9C833279F22570091752F /* FlexiblePicker.gif */,
 				B6F9C800279D451F0091752F /* FlexiblePickerExample */,
 				B6F9C811279D452E0091752F /* FlexiblePickerExampleTests */,
 				B6F9C81B279D452E0091752F /* FlexiblePickerExampleUITests */,
@@ -245,6 +248,7 @@
 			files = (
 				B6F9C809279D452E0091752F /* Preview Assets.xcassets in Resources */,
 				B6F9C806279D452E0091752F /* Assets.xcassets in Resources */,
+				B6F9C834279F22570091752F /* FlexiblePicker.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
